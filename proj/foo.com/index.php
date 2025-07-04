@@ -15,7 +15,7 @@ try {
     if ($result) {
         echo $result['message'];
     } else {
-        echo "No records found";
+        echo "No records were found";
     }
 } catch (PDOException $e) {
     echo "Database connection failed: " . $e->getMessage();
